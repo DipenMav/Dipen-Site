@@ -18,6 +18,10 @@ body{
     font-family: montserrat;
 }
 
+.heading{
+    font-size: 1.6rem;
+}
+
 h3{
     width: 40%;
     padding-top: 30px;
@@ -62,10 +66,10 @@ h2{
     padding: 20px 0px;
 }
 .mypara{
-    width: 350px;
+    width: 35%;
     margin: 0 auto;
     font-family: monospace;
-    font-size: 1rem;
+    font-size: 1.4rem;
     margin-top: 10px;
 
 }
@@ -99,12 +103,20 @@ h2{
 
 .pythonpic{
     float: left;
+    padding-right: 5px;
 }
 .flutterpic{
     float: right;
+    padding-left: 5px;
 }
 
 .spara{
+    font-size: 1.3em;
+    line-height: 1.3;
+    font-family: montserrat;
+}
+
+.spara2{
     font-size: 1.3em;
     line-height: 1.3;
     font-family: montserrat;
@@ -119,7 +131,7 @@ h2{
 
 .button{
     background-color: #66BFBF;
-    padding: 20px;
+    padding: 1rem;
     text-decoration: none;
     color: #E4F9F5;
     border-radius: 20px;
@@ -149,7 +161,7 @@ h2{
 .fa{
     margin: 20px 20px 50px 20px;
     text-decoration: none;
-    color:darkcyan;
+    color: darkblue;
 }
 
 .fa:hover{
@@ -158,4 +170,5 @@ h2{
 
 .copyright{
     padding-top: 40px;
+    font-size: 1rem;
 }
