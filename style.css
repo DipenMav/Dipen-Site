@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Sacremento-Regular;
+    src: url(Sacramento-Regular.ttf);
+}
+
+@font-face {
+    font-family: montserrat ;
+    src: url(Montserrat-Medium.ttf);
+}
+
+body{
+    text-align: center;
+    font-family: montserrat;
+}
+
+h3{
+    width: 40%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
+
+.top{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 170px ;
+ 
+}
+
+h1{
+ /* width: 20%; */
+ margin: 25px auto 0 auto;
+ /* when you change the width of block element now if the parent has property text align center still it will not center the child so for that use margin: 0 auto 0 auto;
+ we can shorten this by margin: 0 auto writing like this same meaning */
+ font-family: Sacremento-Regular;
+ color: #66BFBF;
+ font-size: 5rem;
+ 
+
+}
+h2{
+    color: #66BFBF;
+
+    font-weight:bold;
+    line-height: 2;
+    font-size: 1.8rem;
+
+}
+
+.mypic{
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+    border-radius: 100rem;
+}
+.middle{
+    padding: 20px 0px;
+}
+.mypara{
+    width: 350px;
+    margin: 0 auto;
+    font-family: monospace;
+    font-size: 1rem;
+    margin-top: 10px;
+
+}
+.mhr{
+
+    border: dotted gray 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 120px auto 0 auto;
+   
+    
+}
+.skill-row{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+
+.skill-2row{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.skill{
+    padding: 20px;
+
+}
+
+
+.pythonpic{
+    float: left;
+}
+.flutterpic{
+    float: right;
+}
+
+.spara{
+    font-size: 1.3em;
+    line-height: 1.3;
+    font-family: montserrat;
+}
+
+.shead{
+    padding-top: 50px;
+}
+.bottom{
+    margin-bottom: 40px;
+}
+
+.button{
+    background-color: #66BFBF;
+    padding: 20px;
+    text-decoration: none;
+    color: #E4F9F5;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+.button:hover{
+    background-color: deepskyblue;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 400px;
+  
+}
+
+.top-cloud{
+    position: absolute;
+    top: 80px;
+    right: 450px;
+}
+.footer{
+    margin-top: 50px;
+    padding: 40px;
+    background-color: #66BFBF;
+    font-family: montserrat;
+}
+.fa{
+    margin: 20px 20px 50px 20px;
+    text-decoration: none;
+    color:darkcyan;
+}
+
+.fa:hover{
+   color: white;
+}
+
+.copyright{
+    padding-top: 40px;
+}
